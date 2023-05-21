@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Chatbot        
+Comment=Test the terminal running a command inside it
+Exec=bash -c 'python3 ./chatbot.py;$SHELL'
+Icon=./chatbot.png
+Terminal=false 
+Type=Application
+Categories=Application;
+ 
